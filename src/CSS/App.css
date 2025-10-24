@@ -1,0 +1,9 @@
+.Header{
+    @apply flex text-[#f1f1f1] items-center
+    md:bg-[rgb(0,24,69)] md:h-[86px] md:px-20 md:font-bold md:justify-end
+}
+
+.Button{
+    box-shadow: 0px 0px 10px white;
+    @apply size-11 bg-[rgb(0,40,85)] rounded-lg
+}
