@@ -4,7 +4,7 @@ import { BiMenu } from "react-icons/bi";
 function Header() {
   return (
     <div className='Header'>
-        <button className='Button'><BiMenu className='size-full' /></button>
+        <button className='Menu'><BiMenu className='size-full' /></button>
     </div>
   )
 }

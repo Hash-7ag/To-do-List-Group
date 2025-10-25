@@ -2,8 +2,22 @@
     @apply flex text-[#f1f1f1] items-center
     md:bg-[rgb(0,24,69)] md:h-[86px] md:px-20 md:font-bold md:justify-end
 }
-
-.Button{
+.Menu{
     box-shadow: 0px 0px 10px white;
-    @apply size-11 bg-[rgb(0,40,85)] rounded-lg
+    @apply size-11 flex items-center justify-center bg-[rgb(0,40,85)] rounded-lg
+}
+
+.Container{
+    @apply flex flex-col items-center justify-center size-full text-white gap-10
+}
+
+.AdderMain{
+    @apply grid grid-cols-4 items-center justify-center gap-2 bg-[rgb(0,40,85)] px-4 py-3 rounded-xl mt-28
+    md:w-[570px]
+}
+.AddInput{
+    @apply col-span-3 rounded-lg h-14 bg-[rgb(3,83,164)] px-4 font-bold
+}
+.AddBTN{
+    @apply h-full bg-[rgb(2,62,125)] rounded-lg px-2 font-extrabold
 }
